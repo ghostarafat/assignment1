@@ -16,12 +16,20 @@
     border-radius: 5px;
 }
 
+/* Header Styles */
+.header {
+    background-image: url('../images/Hero-bg.png');
+    background-size: cover;
+    height: 650px;
+    
+}
+
 /* Nav Styles */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;    
+    margin: 0px 150px;    
 }
 .nav-title {
     font-weight: 900;
