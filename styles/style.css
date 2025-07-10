@@ -21,7 +21,7 @@
     color: #252432;
 }
 .section-description {
-    font-size: ;
+    font-size: 20px;
     color: #252432;
 }
 
@@ -75,12 +75,28 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 60px;  
-    gap: 40px;
+    gap: 220px;
 }
 .action-right img {
     border-radius: 40px;
 }
 /* productive users */
-.productive {
-    text-align: center;
+.productive-container{
+    background-color: #E0E3FF;
+    border-radius: 10px;
+    margin-top: 120px;
+}
+.productive{
+    display: flex;
+}
+.productive-title {
+    text-align: center;     
+    padding: 50px 142px;   
+}
+.item-title {
+    justify-content: space-around;
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF; 
+
 }
