@@ -24,6 +24,9 @@
     font-size: 20px;
     color: #252432;
 }
+.text-center {
+    text-align: center;
+}
 
 /* Header Styles */
 .header {
@@ -81,17 +84,22 @@ main {
     border-radius: 40px;
 }
 /* productive users */
-.productive-container{
+.productive{
     background-color: #E0E3FF;
     border-radius: 10px;
-    margin-top: 120px;
+    padding: 50px 80px; 
+    text-align: center;
+    
+
 }
-.productive{
+.productive-item {
     display: flex;
+    justify-content: space-between;    
+
 }
 .productive-title {
     text-align: center;     
-    padding: 50px 142px;   
+      
 }
 .item-title {
     justify-content: space-around;
