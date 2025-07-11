@@ -1,8 +1,11 @@
- .raleway-normal {
+/* .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-} 
+} {eta comment korar reason : 50k,2M,95% dekhte wierd hoye jay, 
+ comment uthay dile header section er font hubahu thake figma er moton, 
+ support e help nile evabe rakhte bolse}
+
 
 /* Shared Styles */
 .body-bg-color {
@@ -34,7 +37,8 @@
 .header {
     background-image: url('../images/Hero-bg.png');
     background-size: cover;
-    height: 650px;    
+    height: 650px;
+    
 }
 
 /* Nav Styles */
@@ -83,23 +87,28 @@ main {
     gap: 220px;
 }
 .action-right img {
-    border-radius: 40px;    
+    border-radius: 40px;
+    
 }
-
-/* Productive users */
+/* productive users */
 .productive{
     background-color: #E0E3FF;
     border-radius: 10px;
     padding: 50px 80px; 
-    text-align: center; 
+    text-align: center;
+    
+
 }
 .productive-item {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    
+
 }
 .productive h3 {
     text-align: center; 
-    margin-bottom: 0px;       
+    margin-bottom: 0px; 
+    
+      
 }
 .item-title {
     /* justify-content: space-around; */
@@ -119,7 +128,6 @@ main {
 .productive p {
     /* margin-top: 40px; */
 }
-
 /* Reviews section */
 .reviews { 
   text-align: center;
@@ -257,4 +265,8 @@ main {
     text-decoration: none;
     color: #888;
     font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #433bff;
 }
