@@ -4,7 +4,6 @@
   font-style: normal;
 } 
 
-
 /* Shared Styles */
 .body-bg-color {
     background-color: #F5F8FF;
@@ -35,8 +34,7 @@
 .header {
     background-image: url('../images/Hero-bg.png');
     background-size: cover;
-    height: 650px;
-    
+    height: 650px;    
 }
 
 /* Nav Styles */
@@ -85,28 +83,23 @@ main {
     gap: 220px;
 }
 .action-right img {
-    border-radius: 40px;
-    
+    border-radius: 40px;    
 }
-/* productive users */
+
+/* Productive users */
 .productive{
     background-color: #E0E3FF;
     border-radius: 10px;
     padding: 50px 80px; 
-    text-align: center;
-    
-
+    text-align: center; 
 }
 .productive-item {
     display: flex;
-    justify-content: space-between;    
-
+    justify-content: space-between;
 }
 .productive h3 {
     text-align: center; 
-    margin-bottom: 0px; 
-    
-      
+    margin-bottom: 0px;       
 }
 .item-title {
     /* justify-content: space-around; */
@@ -126,6 +119,7 @@ main {
 .productive p {
     /* margin-top: 40px; */
 }
+
 /* Reviews section */
 .reviews { 
   text-align: center;
