@@ -6,6 +6,9 @@
 
 
 /* Shared Styles */
+.body-bg-color {
+    background-color: #F5F8FF;
+}
 .btn-primary {
     background-color: #4E47FF;
     font-weight: bold;
@@ -215,3 +218,49 @@ main {
   color: white;
 }
 
+/* Footer Styles */
+
+
+.footer-content {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+    color: #555;
+    font-family: Arial, sans-serif;
+    
+}
+
+.footer-content h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: #433bff;
+    margin-bottom: 20px;
+}
+
+.logo-description p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #888;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.highlight {
+    background: yellow;
+    color: #000;
+}
+
+.footer-links {
+    margin-top: 30px;
+}
+
+.footer-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #888;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #433bff;
+}
